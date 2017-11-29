@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.blue-background {
+    background-color: #006064;
+    color: #fff;
+}
+
+.table {
+    border: 1px solid #006064;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #006064;
+    border-radius: 0;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.btn:hover {
+    background-color: #009CA1;
+    color: #fff;
+}
+
+.btn:focus {
+    color: #fff;
+}
+
+h1 {
+    color: #006064;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-danger,
+.table .btn-warning {
+    padding: 2px 5px;
+    margin: 5px 5px;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 3px;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid #006064;
+}
+
+.invoice-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.add-product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-product select {
+    width: 80%;
+}
+
+.products {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
